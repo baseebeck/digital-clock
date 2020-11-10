@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;669;700;800;900&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background: gray;
+}
+
+button {
+  background-color: #e66357;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: .1rem;
+  padding: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #E9776C;
+}
+
+select {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.main {
+    background: #ccc;
+    width: 500px;
+    margin: 50px auto 25px;
+    position: relative;
+    padding: 30px;
+}
+
+.badge {
+    background: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 37%;
+}
+
+.clock {
+    background: #ebebeb;
+    text-align: center;
+    font-size: 3rem;
+    height: 100%;
+    padding-top: 20px;
+    font-family: Orbitron;
+    border-radius: 5px 5px 0 0;
+}
+
+.date {
+    background: #ebebeb;
+    text-align: center;
+    font-size: 1.7rem;
+    height: 100%;
+    padding: 20px;
+    font-family: Orbitron;
+    border-radius: 0 0 5px 5px;
+}
+
+/* .image {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+} */
+
+.message {
+  background: #ebebeb;
+  border-radius: 5px;
+  color: #e66357;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+  /* border: 1px solid black; */
+}
+
+.hidden {
+  display: none;
+}
+
+.timeFrames {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.timeFrameCategory {
+  padding: 5px 0;
+}
+
+.timeFrameText {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  padding-right: 10px;
+}
